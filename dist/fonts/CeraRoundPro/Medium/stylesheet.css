@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'CeraRoundPro Medium';
+	src: url('CeraRoundPro-Medium.eot') format('embedded-opentype'),
+		 url('CeraRoundPro-Medium.otf') format('opentype'),
+		 url('CeraRoundPro-Medium.svg#CeraRoundPro-Medium') format('svg'),
+		 url('CeraRoundPro-Medium.ttf') format('truetype'),
+		 url('CeraRoundPro-Medium.woff') format('woff'),
+		 url('CeraRoundPro-Medium.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}

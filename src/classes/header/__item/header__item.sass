@@ -1,0 +1,30 @@
+.header__item
+	position: relative
+	font: 16px 'CeraRoundPro Bold'
+	text-decoration: none
+	color: #FDFFFC
+	&:first-child
+		margin-right: 48px
+	&:nth-child(2), &:nth-child(3)
+		margin-right: 46px
+	&:hover:after
+		content: ""
+		display: block
+		width: 4px
+		height: 4px
+		background: #FAFBFD
+		position: absolute
+		top: 24px
+		left: calc((100% - 4px) / 2)
+		border-radius: 100%
+	@media screen and (min-width: 2000px)
+		.header &
+			margin-right: 100px
+		.header &:last-child
+			margin-right: 0
+	@media screen and (min-width: 3000px)
+		.header &
+			margin-right: 200px
+	@media screen and (min-width: 4000px)
+		.header &
+			margin-right: 300px

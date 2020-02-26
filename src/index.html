@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Моё здоровье</title>
+		<link rel="icon" href="img/icon/icon.png">
+		<!-- Подключение JQuery библиотеки -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Подключение готового решения bxSlider Javascript file -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+		<!-- Подключение готового решения bxSlider CSS file -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css">
+		<!-- Подключение стилей -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Подключение шрифтов -->
+		<link rel="stylesheet" href="fonts/CeraRoundPro/Bold/stylesheet.css">
+		<link rel="stylesheet" href="fonts/CeraRoundPro/Light/stylesheet.css">
+		<link rel="stylesheet" href="fonts/CeraRoundPro/Medium/stylesheet.css">
+		<link rel="stylesheet" href="fonts/CeraRoundPro/Regular/stylesheet.css">
+		<link rel="stylesheet" href="fonts/Geometria/Medium/stylesheet.css">
+	</head>
+	
+	<body class="body">
+		<header class="header">
+			<div class="header__logo">
+				<img src="img/classes/header/__logo/header__logo.png" alt="Моё здоровье">
+			</div>
+
+			<nav class="header__menu">
+				<a href="#about" class="header__item">О сервисе</a>
+				<a href="#functions" class="header__item">Функции</a>
+				<a href="#opportunities" class="header__item">Возможности</a>
+				<a href="#partners" class="header__item">Партнеры</a>
+			</nav>
+
+			<div class="header__input">
+				<input class="header__button" type="button" value="Оставить заявку" onclick="location.href='#access'">
+			</div>
+		</header>
+
+		<main>
+			<section class="slider">
+				<ul class="bxslider">
+					<li>
+						<span class="content bxslider__title">Расширяем возможности предоставления качественных медицинских услуг</span>
+
+						<span class="content bxslider__text">«Дневник здоровья» – новый сервис для самоконтроля показателей состояния здоровья, разработанный для участников программы «Мое здоровье».</span>
+
+						<span class="content bxslider__input">
+							<input class="bxslider__button" type="button" value="Узнать больше">
+						</span>
+
+						<img class="bxslider__img" src="img/classes/bxslider/__img/bxslider__img-1.png">
+					</li>
+
+					<li>
+						<span class="content bxslider__title_str_2">Следить за здоровьем станет проще</span>
+
+						<span class="content bxslider__text_str_2">Скоро вы сможете находиться на связи со своим лечащим врачом независимо от своего местоположения, вести дневник мониторинга самочувствия, получать рекомендации по плану лечения и многое другое.</span>
+
+						<span class="content bxslider__input_str_2">
+							<input class="bxslider__button_str_2" type="button" value="Узнать больше">
+						</span>
+
+						<img class="bxslider__img" src="img/classes/bxslider/__img/bxslider__img-2.png">
+					</li>
+				</ul>
+			</section>
+
+			<section class="about" id="about">
+				<div class="about__title">Что такое «Дневник здоровья»?</div>
+
+				<div class="about__subtitle">Дневник пациента — это удобный онлайн-сервис:</div>
+
+				<ul class="about__text">
+					<li class="about__item">Вносите результаты измерений вручную или с помощью
+					интегрированных приборов</li>
+
+					<li class="about__item">Ведите персональную медицинскую карту с историей
+					ваших измерений </li>
+
+					<li class="about__item">Делитесь результатами измерений со специалистами
+					для повышения эффективности лечения</li>
+
+					<li class="about__item about__item_width_medium">Получайте рекомендации, созданные специально для вас</li>
+				</ul>
+				
+				<div class="about__input">
+					<input class="about__button" type="button" value="Оставить заявку" onclick="location.href='#access'">
+				</div>
+			</section>
+
+			<section class="functions" id="functions">
+				<div class="functions__title">Функции приложения</div>
+
+				<div class="functions__box">
+					<div class="functions__row">
+						<div class="functions__col">
+							<img class="functions__img" src="img/classes/functions/__img/functions__img-1.png">
+
+							<div class="functions__text">
+								<p>Планирование графика</p>
+								<p>приема лекарств</p>							
+							</div>
+						</div>
+
+						<div class="functions__col">
+							<img class="functions__img" src="img/classes/functions/__img/functions__img-2.png">
+
+							<div class="functions__text">
+								<p>Уведомление врача</p>
+								<p>об исполнении назначений</p>
+							</div>
+						</div>
+
+						<div class="functions__col">
+							<img class="functions__img" src="img/classes/functions/__img/functions__img-3.png">
+
+							<div class="functions__text">
+								<p>Ведение дневника</p>
+								<p>самочувствия</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="functions__row">
+						<div class="functions__col">
+							<img class="functions__img" src="img/classes/functions/__img/functions__img-4.png">
+
+							<div class="functions__text">
+								<p>Удаленное предоставление</p>
+								<p>измерений врачу</p>
+							</div>
+						</div>
+
+						<div class="functions__col">
+							<img class="functions__img" src="img/classes/functions/__img/functions__img-5.png">
+
+							<div class="functions__text">
+								<p>Общение с врачами</p>
+								<p>через встроенный мессенджер</p>
+							</div>
+						</div>
+
+						<div class="functions__col">
+							<img class="functions__img" src="img/classes/functions/__img/functions__img-6.png">
+
+							<div class="functions__text">
+								<p>Получение уведомлений</p>
+								<p>для выполнения назначений</p>
+							</div>
+						</div>
+					</div>					
+				</div>
+			</section>
+
+			<section class="opportunities" id="opportunities">
+				<div class="opportunities__title">Ведите персональный дневник мониторинга здоровья</div>
+
+				<div class="opportunities__box">
+					<div class="opportunities__item">
+						<img class="opportunities__img" src="img/classes/opportunities/__img/opportunities__img-1.png">
+
+						<div class="opportunities__subtitle">Хранение данных</div>
+
+						<div class="opportunities__text">Контролируйте и следите за динамикой изменения показателей вашего здоровья. Вносите результаты измерений медицинских показателей вручную или с помощью интегрированных приборов, храните историю измерений и отслеживайте динамику состояния здоровья</div>
+					</div>
+					
+					<div class="opportunities__item">
+						<img class="opportunities__img" src="img/classes/opportunities/__img/opportunities__img-2.png">
+
+						<div class="opportunities__subtitle">Сообшение информации врачу</div>
+
+						<div class="opportunities__text">Позвольте специалисту дистанционно следить за вашим здоровьем.
+						Будьте на связи со специалистом - отправляйте информацию о своем самочувствии, обменивайтесь сообщениями и получайте рекомендации по вашему здоровью и лечению.</div>
+					</div>
+					
+					<div class="opportunities__item opportunities__item_of-type_last">
+						<img class="opportunities__img" src="img/classes/opportunities/__img/opportunities__img-3.png">
+
+						<div class="opportunities__subtitle">Напоминание о важном</div>
+
+						<div class="opportunities__text">Получайте рекомендации, созданные специально для вас. Система, персонально настроенная под ваши требования, <span>автоматически напомнит о необходимости выполнить рекомендации медицинского специалиста: принять препарат или выполнить измерения.</span></div>
+					</div>
+				</div>
+			</section>
+
+			<section class="partners" id="partners">
+				<div class="partners__title">Специалистам</div>
+				
+				<ul class="partners__content">
+					<li class="partners__item">Дистанционный контроль состояния здоровья ваших пациентов</li>
+
+					<li class="partners__item">Наблюдение за динамикой изменения основных
+					медицинских показателей</li>
+
+					<li class="partners__item">Наличие алгоритмов автоматического анализа
+					поступающей информации</li>
+
+					<li class="partners__item">Индивидуальная система уведомлений об изменении
+					состояния каждого пациента</li>
+
+					<li class="partners__item">Дополнительный сервис коммуникации, позволяющий активно
+					вовлекать пациента в процесс профилактики, лечения и реабилитации.</li>
+				</ul>
+			</section>
+
+			<section class="access" id="access">
+				<div class="access__title">Получите бесплатный доступ к «Дневнику здоровья»</div>
+
+				<div class="access__text">
+					<p>Оставьте свою электронную почту</p>
+					<p>и вы узнаете о запуске данного сервиса первым!</p>
+				</div>
+
+				<form action="successfully.html" class="access__form" id="form">
+					<input type="text" class="access__email" id="email" placeholder="Ваш E-mail">
+					<input type="submit" class="access__button" id="button" value="Отправить">
+				</form>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="footer__box">
+				<div class="footer__logo">
+					<img src="img/classes/footer/__logo/footer__logo.png" alt="Моё здоровье">
+				</div>
+
+				<nav class="footer__menu">
+					<a href="#about" class="footer__item">Осервисе</a>
+					<a href="#functions" class="footer__item">Функции</a>
+					<a href="#opportunities" class="footer__item">Возможности</a>
+					<a href="#partners" class="footer__item">Специалистам</a>
+					<a href="#" class="footer__item">88005004549</a>
+				</nav>
+			</div>
+
+			<div class="footer__border"></div>
+
+			<div class="footer__text">Разработка сайта <span>Redsoft</span></div>
+		</footer>
+
+		<script src="js/script.js"></script>		
+	</body>
+</html>
